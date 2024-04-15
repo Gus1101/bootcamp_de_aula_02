@@ -3,6 +3,6 @@
 import math
 
 raio_do_circulo = int(input("Digite o raio do circulo: "))
-area_do_circulo = math.pi * raio_do_circulo ^ 2
+area_do_circulo = math.pi * raio_do_circulo ** 2
 
 print (area_do_circulo)
