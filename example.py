@@ -17,3 +17,12 @@ mes = data_list[1]
 ano = data_list[2]
 
 print(f"O dia é {dia}, o mês é {mes} e o ano é {ano}.")
+
+#Teste com o is.instance:
+
+numero = int(input("Insira um number: "))
+
+if isinstance(numero,int):
+    print("O number é inteiro")
+else:
+    print("O number não é inteiro")
