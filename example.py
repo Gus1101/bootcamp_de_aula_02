@@ -26,3 +26,11 @@ if isinstance(numero,int):
     print("O number é inteiro")
 else:
     print("O number não é inteiro")
+
+#Teste com isdigit:
+
+nome = input("Qual o seu nome?: ")
+if nome.isdigit():
+    print("você digitou numeros em seu nome")
+else:
+    print(f"olá,{nome}!")
